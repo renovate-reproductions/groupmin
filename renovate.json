@@ -3,7 +3,7 @@
     "matchDepNames": "node",
     "groupName": "node"
   }, {
-    "matchJsonata": ["groupName = 'node' AND $count(updates) < 2"],
+    "matchJsonata": ["groupName = 'node' and $count(updates) < 2"],
     "labels": ["minimum-not-met"],
     "dependencyDashboardApproval": true
   }]
