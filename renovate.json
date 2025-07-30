@@ -4,6 +4,7 @@
     "groupName": "node"
   }, {
     "matchJsonata": "groupName = 'node'",
-    "semanticCommits": "enabled"
+    "semanticCommits": "enabled",
+    "labels": ["minimum-not-met"]
   }]
 }
