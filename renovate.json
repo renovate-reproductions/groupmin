@@ -3,7 +3,7 @@
     "matchDepNames": "node",
     "groupName": "node"
   }, {
-    "matchJsonata": "groupName = node AND $count(updates) < 2",
+    "matchJsonata": "groupName = 'node'",
     "semanticCommits": "enabled"
   }]
 }
