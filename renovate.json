@@ -3,7 +3,7 @@
     "matchDepNames": "node",
     "groupName": "node"
   }, {
-    "matchJsonata": "groupName = 'node'",
+    "matchJsonata": ["groupName = 'node'"],
     "semanticCommits": "enabled",
     "labels": ["minimum-not-met"]
   }]
