@@ -3,8 +3,8 @@
     "matchDepNames": "node",
     "groupName": "node"
   }, {
-    "matchJsonata": ["groupName = 'node'"],
-    "semanticCommits": "enabled",
-    "labels": ["minimum-not-met"]
+    "matchJsonata": ["groupName = 'node' AND $count(updates) < 2"],
+    "labels": ["minimum-not-met"],
+    "dependencyDashboardApproval": true
   }]
 }
