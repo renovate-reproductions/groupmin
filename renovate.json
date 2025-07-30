@@ -1,0 +1,6 @@
+{
+  "packageRules": [{
+    "matchDepNames": "node",
+    "groupName": "node"
+  }]
+}
