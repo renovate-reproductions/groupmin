@@ -2,5 +2,8 @@
   "packageRules": [{
     "matchDepNames": "node",
     "groupName": "node"
+  }, {
+    "matchJsonata": "groupName = node AND $count(updates) < 2",
+    "semanticCommits": "enabled"
   }]
 }
